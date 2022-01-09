@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="480.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CheckBalanceController">
+   <children>
+      <Button fx:id="mainMenuButton" defaultButton="true" layoutX="374.0" layoutY="377.0" mnemonicParsing="false" onAction="#handleMainMenuButton" prefHeight="33.0" prefWidth="109.0" style="-fx-background-color: #47b0ed;" text="MAIN MENU" />
+      <Button fx:id="signoutButton" layoutX="238.0" layoutY="377.0" mnemonicParsing="false" onAction="#handleSignOutButton" prefHeight="33.0" prefWidth="109.0" style="-fx-background-color: #e8594f;" text="SIGN OUT" />
+      <Text fx:id="savingsBalanceText" layoutX="415.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="test">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="checkingBalanceText" layoutX="415.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="test">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Label layoutX="264.0" layoutY="46.0" text="ACCOUNT BALANCES">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="222.0" layoutY="168.0" prefHeight="25.0" prefWidth="173.0" text="SAVINGS ACCOUNT:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="221.0" layoutY="231.0" prefHeight="25.0" prefWidth="173.0" text="CHECKING ACCOUNT:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

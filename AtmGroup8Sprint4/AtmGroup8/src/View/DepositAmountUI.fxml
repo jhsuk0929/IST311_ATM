@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="480.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DepositController">
+   <children>
+      <Label layoutX="316.0" layoutY="50.0" text="DEPOSIT">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="262.0" layoutY="91.0" text="ENTER THE AMOUNT OF THE DEPOSIT">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></Label>
+      <Label layoutX="256.0" layoutY="188.0" text="\$">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <TextField fx:id="amountTextField" layoutX="275.0" layoutY="184.0" prefHeight="37.0" prefWidth="178.0" promptText="ENTER AN AMOUNT">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Label fx:id="errorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="275.0" opacity="0.0" prefHeight="20.0" prefWidth="720.0" text="UNKNOWN DOLLAR AMOUNT" textAlignment="CENTER" textFill="#e8594f">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Label>
+      <Button fx:id="depositButton" defaultButton="true" layoutX="286.0" layoutY="343.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="43.0" prefWidth="138.0" style="-fx-background-color: #47b0ed;" text="DEPOSIT" />
+      <Button fx:id="cancelAmountButton" cancelButton="true" layoutX="285.0" layoutY="403.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="43.0" prefWidth="138.0" style="-fx-background-color: #e8594f;" text="CANCEL" />
+      <Label layoutX="189.0" layoutY="232.0" text="ATM WILL NOT EXCEPT CHANGE. ENTER A POSITIVE WHOLE DOLLAR AMOUNT." textFill="#545454">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

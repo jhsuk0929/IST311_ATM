@@ -1,0 +1,22 @@
+JDK 13
+JavaFX 16
+
+Logins:
+
+Account# or username: testUser
+Password: testPass
+
+Account# or username: 11111
+Password: password1
+
+Account# or username: 22222
+Password: password2
+
+Account# or username: 33333
+Password: password3
+
+Account# or username: 44444
+Password: password4
+
+Account# or username: 55555
+Password: password5
